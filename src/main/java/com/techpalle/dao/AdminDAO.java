@@ -44,8 +44,14 @@ public class AdminDAO
 	{
 		try
 		{
-			if(pstm != null) { pstm.close(); }
-			if(conn !=null) { conn.close(); }
+			if(pstm != null) 
+			{ 
+				pstm.close(); 
+			}
+			if(conn !=null) 
+			{ 
+				conn.close(); 
+			}
 		}
 		catch (SQLException e) 
 		{
@@ -58,9 +64,18 @@ public class AdminDAO
 	{
 		try 
 		{
-			if(rset != null) { rset.close(); } 
-			if(pstm != null) { pstm.close(); } 
-			if(conn != null) { conn.close(); }
+			if(rset != null) 
+			{ 
+				rset.close(); 
+			} 
+			if(pstm != null) 
+			{ 
+				pstm.close(); 
+			} 
+			if(conn != null) 
+			{ 
+				conn.close(); 
+			}
 		}
 		catch (SQLException e) 
 		{ 
